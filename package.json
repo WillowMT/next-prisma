@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waiyanmt/next-prisma"
+    "url": "https://github.com/WillowMT/next-prisma"
   },
   "type": "module",
   "scripts": {
