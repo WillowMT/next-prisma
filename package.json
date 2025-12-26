@@ -1,14 +1,32 @@
 {
-  "name": "next-prisma",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@waiyanmt/next-prisma",
+  "version": "1.0.3",
+  "description": "Create a Next.js app with Prisma ORM and Tailwind CSS",
+  "keywords": [
+    "nextjs",
+    "prisma",
+    "tailwind",
+    "template",
+    "react",
+    "typescript"
+  ],
+  "author": "Wai Yan Myint Thein",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waiyanmt/next-prisma"
+  },
+  "bin": {
+    "create-next-prisma": "./bin/create-next-prisma.js"
+  },
   "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "bun run tests/db.test.ts"
+    "test": "bun run tests/db.test.ts",
+    "postinstall": "bun run bin/create-next-prisma.js"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
