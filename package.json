@@ -1,5 +1,5 @@
 {
-  "name": "@waiyanmt/next-prisma",
+  "name": "WillowMT/next-prisma",
   "version": "1.0.4",
   "description": "Create a Next.js app with Prisma ORM and Tailwind CSS",
   "keywords": [
