@@ -23,7 +23,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "bun run tests/db.test.ts",
-    "postinstall": "bun run bin/create-next-prisma.js"
+    "postinstall": "npx prisma generate && npx prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
